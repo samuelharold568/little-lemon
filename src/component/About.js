@@ -2,8 +2,8 @@ import React from 'react';
 import {
   Flex, Image, Stack, Heading, Center, Text,
 } from '@chakra-ui/react';
-import owner from '../icons_assets/owner_b.jpg';
-import restaurant from '../icons_assets/lemon dessert.jpg';
+import owner from '../icons_assets/restaurant chef B.jpg';
+import restaurant from '../icons_assets/restaurant.jpg';
 
 function About() {
   return (
@@ -41,7 +41,7 @@ function About() {
               />
               <Image
                 pos={{ base: 'absolute', sm: 'static', md: 'absolute' }}
-                src={restaurant}
+                src={owner}
                 alt="restaurant"
                 h="300px"
                 left="10%"

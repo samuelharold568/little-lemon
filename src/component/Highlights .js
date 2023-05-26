@@ -24,9 +24,9 @@ function Highlights() {
             This weeks spesials!
           </Heading>
           <Flex wrap="wrap" justify={{ base: 'space-between', sm: 'space-around', md: 'space-between' }} rowGap={{ base: '0px', sm: '20px', md: '20px' }}>
-            <CardFood icon={delivery} img={lemondessert} title="Greek salad" price="12.99" />
+            <CardFood icon={delivery} img={greeksalad} title="Greek salad" price="12.99" />
             <CardFood icon={delivery} img={lemondessert} title="Bruchetta" price="5.99" />
-            <CardFood icon={delivery} img={lemondessert} title="Lemon Dessert" price="5.00" />
+            <CardFood icon={delivery} img={greeksalad} title="Lemon Dessert" price="5.00" />
             <CardFood icon={delivery} img={lemondessert} title="Greek salad" price="12.99" />
           </Flex>
         </Stack>

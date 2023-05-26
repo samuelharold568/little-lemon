@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import {
   Center, Box, Heading, Text, Button, Image, Flex, Stack,
 } from '@chakra-ui/react';
-import heroImage from '../icons_assets/lemon dessert.jpg';
+import heroImage from '../icons_assets/restauranfood.jpg';
 
 function Hero() {
   return (
