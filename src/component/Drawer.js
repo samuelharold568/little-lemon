@@ -10,7 +10,6 @@ import {
   Center,
   Image,
 } from '@chakra-ui/react';
-import { HamburgerIcon } from '@chakra-ui/icons';
 import Nav from './Nav';
 import logo from '../icons_assets/Logo.svg';
 
@@ -37,8 +36,8 @@ function DrawerMenu({ isLogin }) {
 
   return (
     <>
-      <Button className="openDrawer" ref={btnRef} colorScheme="teal" onClick={onOpenHandler}>
-        <HamburgerIcon boxSize={6} />
+      <Button pos="relative" className="openDrawer" ref={btnRef} colorScheme="teal" onClick={onOpenHandler}>
+        &#9776;
       </Button>
       <Drawer
         isOpen={open}
@@ -58,7 +57,7 @@ function DrawerMenu({ isLogin }) {
             </Center>
           </DrawerBody>
           <DrawerFooter>
-            <Center w="100%">
+            <Center pos="relative" bottom="45px" w="100%">
               <Image src={logo} alt="logo" />
             </Center>
           </DrawerFooter>

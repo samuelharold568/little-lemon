@@ -7,7 +7,7 @@ import profil from '../wireframe/images/bosch.png';
 function ProfilPages({ onLogout, data, name }) {
   return (
     <main>
-      <Stack pt="20px" pb="30px" h={{ base: '100%', md: '100vh' }} bg="#333333">
+      <Stack pt="20px" pb="30px" minH="90vh" h={{ base: '100%', md: '100vh' }} bg="#333333">
         <Center h="100%">
           <Flex direction={{ base: 'row', sm: 'column', md: 'row' }} gap="25px" h="100%" w="90%">
             <VStack flex="1" pt="5%" spacing="4px">

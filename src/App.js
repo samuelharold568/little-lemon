@@ -41,6 +41,7 @@ function App() {
     function getReservationDataStorage() {
       const reservationData = getReservationData();
       setReservation(reservationData);
+      console.log('ini reservation', reservation.length);
     }
 
     getReservationDataStorage();

@@ -25,7 +25,7 @@ function Register({
 }) {
   const [newPassword, setPassword] = useState(false);
   const [confirm, setConfirm] = useState(false);
-  const handleClickNewPassword = () => setPassword(!password);
+  const handleClickNewPassword = () => setPassword(!newPassword);
   const handleClickConfirm = () => setConfirm(!confirm);
 
   return (
