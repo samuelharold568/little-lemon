@@ -10,9 +10,9 @@ function CardFood({
   return (
     <Card
       bg="#EDEFEE"
-      maxW="300px"
+      maxW="350px"
       w={{
-        sm: '95%', md: '280px', lg: '260px', xl: '250px',
+        sm: '98%', md: '280px', lg: '260px', xl: '250px',
       }}
     >
       <Image
